@@ -1,5 +1,4 @@
 🤖 Agentic Data Analyst
-
 An AI-powered Agentic Data Analysis web application that allows users to upload CSV or Excel datasets and automatically generate data summaries, insights, visualizations, and natural-language answers to questions about their data.
 
 The application combines Python, Flask, Pandas, Plotly, and Google Gemini AI to provide an interactive data analysis experience without requiring users to write SQL or Python code.
