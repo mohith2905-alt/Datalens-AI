@@ -1,109 +1,182 @@
 🤖 Agentic Data Analyst
-An AI-powered Agentic Data Analysis web application that allows users to upload CSV or Excel datasets and automatically generate data summaries, insights, visualizations, and natural-language answers to questions about their data.
 
-The application combines Python, Flask, Pandas, Plotly, and Google Gemini AI to provide an interactive data analysis experience without requiring users to write SQL or Python code.
+An AI-powered web application that lets you upload a CSV or Excel dataset and instantly get data summaries, insights, interactive visualizations, and natural-language answers to questions about your data, with no SQL or Python required.
 
-🚀 Features 📂 Upload CSV, XLS, and XLSX files 📊 Automatically analyze uploaded datasets 🔢 Display total records and columns ⚠️ Detect missing values 📋 Detect duplicate records 🧮 Generate statistical summaries 📈 Identify numerical and categorical columns 📊 Automatically generate visualizations 🔍 Preview uploaded dataset 💬 Ask questions about the uploaded dataset using natural language 🤖 Gemini AI fallback for complex analytical questions 📥 Download a statistical summary report 🎨 Interactive and responsive web interface 🧠 How It Works
+Built with Python, Flask, Pandas, Plotly, and Google Gemini AI.
 
-The application follows a simple data-analysis pipeline:
+🚀 Features
+📂 Upload CSV, XLS, and XLSX files (up to 16 MB)
+🔢 Show total records and columns
+⚠️ Detect missing values
+📋 Detect duplicate records
+🧮 Generate statistical summaries
+📈 Identify numerical and categorical columns
+📊 Auto-generate interactive visualizations
+🔍 Preview the uploaded dataset
+💬 Ask questions about your data in plain English
+🤖 Gemini AI fallback for complex analytical questions
+📥 Download a statistical summary report
+🎨 Responsive, interactive web interface
+🧠 How It Works
+User uploads dataset
+        ↓
+   Flask backend
+        ↓
+  Pandas processing
+        ↓
+   Data analyzer
+     ┌───┴────┐
+Statistics  Visualizations
+     └───┬────┘
+         ↓
+  Interactive UI
+         ↓
+   AI data chatbot
+         ↓
+ Natural-language answer
+Chatbot: two-level approach
+User question
+      ↓
+Built-in Pandas analysis
+      ↓
+ Can it answer?
+   ↙        ↘
+ Yes         No
+  ↓           ↓
+Answer    Gemini AI → generates analysis → executes → answer
 
-User Uploads Dataset ↓ Flask Backend ↓ Pandas Processing ↓ Data Analyzer ↓ ┌──────┴────────┐ ↓ ↓ Statistics Visualizations ↓ ↓ └──────┬────────┘ ↓ Interactive UI ↓ AI Data Chatbot ↓ Natural Language Answer Chatbot Processing
+Common questions are answered instantly by built-in Pandas logic, for example:
 
-The chatbot uses a two-level approach:
+How many rows are there?
+What are the column names?
+Are there missing values?
+What is the average / maximum / minimum of a column?
+Show the first 10 rows
+What are the unique values?
+Show the correlation
 
-User Question ↓ Built-in Data Analysis ↓ Can it answer? ↙ ↘ Yes No ↓ ↓ Answer Gemini AI ↓ Generate Analysis ↓ Execute ↓ Answer
+More complex questions are passed to the Google Gemini API.
 
-For common questions such as:
+🛠️ Tech Stack
+Layer	Technologies
+Backend	Python, Flask, Pandas, NumPy, OpenPyXL
+AI	Google Gemini API, Google Generative AI SDK
+Visualization	Plotly, Chart.js
+Frontend	HTML5, CSS3, JavaScript
+Environment	Python virtual environment, python-dotenv
+Tooling	Git & GitHub
+📁 Project Structure
+Agentic_Data_Analysts/
+└── agentic data/
+    ├── app.py              # Flask app and API routes
+    ├── analysis.py         # Dataset analysis and visualization logic
+    ├── chatbot.py          # Natural-language data chatbot
+    ├── test_script.py      # Tests for data-analysis operations
+    ├── requirements.txt    # Python dependencies
+    ├── templates/
+    │   └── index.html      # Main web interface
+    ├── static/
+    │   ├── css/style.css   # UI styling
+    │   └── js/script.js    # Frontend logic and API calls
+    └── uploads/            # Uploaded files (git-ignored)
+⚙️ Installation
 
-How many rows are there? What are the column names? Are there missing values? What is the average of a column? What is the maximum value? What is the minimum value? Show the first 10 rows What are the unique values? Show correlation
+1. Clone the repository
 
-the application uses built-in Pandas-based analysis.
+bash
+git clone https://github.com/YOUR_USERNAME/Agentic_Data_Analysts.git
+cd Agentic_Data_Analysts
 
-For more complex questions, the application can use Google Gemini API. 🛠️ Tech Stack Backend Python Flask Pandas NumPy OpenPyXL AI Google Gemini API Google Generative AI Data Visualization Plotly Chart.js Frontend HTML5 CSS3 JavaScript Environment Python Virtual Environment python-dotenv Git & GitHub 📁 Project Structure agentic data/ │ └── agentic data/ │ ├── app.py ├── analysis.py ├── chatbot.py ├── test_script.py ├── requirements.txt │ ├── templates/ │ └── index.html │ ├── static/ │ ├── css/ │ │ └── style.css │ │ │ └── js/ │ └── script.js │ └── uploads/ Main Files File Description app.py Flask application and API routes analysis.py Dataset analysis and visualization logic chatbot.py Natural-language data analysis chatbot index.html Main web interface style.css UI styling script.js Frontend interaction and API communication requirements.txt Python dependencies test_script.py Testing data-analysis operations ⚙️ Installation
+2. Create a virtual environment
 
-Clone the repository git clone https://github.com/YOUR_USERNAME/Agentic_Data_Analysts.git
-Navigate to the project cd Agentic_Data_Analysts
-Create a virtual environment
-Windows:
-
+bash
+# Windows
 python -m venv venv
-
-Activate it:
-
 venv\Scripts\activate
 
-Linux/macOS:
+# Linux / macOS
+python3 -m venv venv
+source venv/bin/activate
 
-python3 -m venv venv source venv/bin/activate 4. Install dependencies pip install -r "agentic data/agentic data/requirements.txt" 🔑 Gemini API Configuration
+3. Install dependencies
 
-To enable AI-powered analysis, create a .env file inside the application directory.
+bash
+pip install -r "agentic data/requirements.txt"
+🔑 Gemini API Configuration
 
+Get a free API key from Google AI Studio, then create a .env file in the folder that contains app.py:
+
+env
 GEMINI_API_KEY=your_api_key_here
 
-Do not upload your .env file or API key to GitHub.
+⚠️ Never commit your .env file or API key to GitHub. Add this to .gitignore:
 
-Add the following to .gitignore:
+.env
+venv/
+__pycache__/
+*.pyc
+uploads/
 
-.env venv/ pycache/ .pyc uploads/ ▶️ Run the Application Navigate to the directory containing app.py:
+Without an API key the app still works; only the Gemini fallback for complex questions is disabled.
 
-cd "agentic data/agentic data"
-
-Run:
-
+▶️ Run the Application
+bash
+cd "agentic data"
 python app.py
 
-The Flask development server will start.
+Open the URL shown in the terminal, usually http://127.0.0.1:5000
 
-Open the URL shown in your terminal, usually:
+💬 Example Questions
 
-http://127.0.0.1:5000 💬 Example Questions
+After uploading a dataset, try:
 
-After uploading a dataset, you can ask:
+How many rows are there?
+Show me the column names
+Are there any missing values?
+What is the average salary?
+What is the maximum sales?
+Show the first 10 rows
+Which column has the highest mean?
+Show the correlation between numerical columns
+🔌 API Endpoints
+Method	Endpoint	Description
+GET	/	Main application interface
+POST	/upload	Upload and analyze a CSV/Excel file
+POST	/chat	Ask a natural-language question about the dataset
+GET	/download-report	Download the statistical summary report
 
-How many rows are there? Show me the column names Are there any missing values? What is the average salary? What is the maximum sales? Show the first 10 rows Which column has the highest mean? Show the correlation between numerical columns 📊 Supported File Formats
+Example /chat request
 
-The application currently supports:
+json
+{ "query": "How many rows are there?" }
+🔮 Future Enhancements
+🔐 User authentication
+🗄️ Database integration
+📊 More advanced visualizations
+🧠 More powerful AI agents
+📑 PDF report generation
+☁️ Cloud deployment
+📁 Multiple dataset support
+🔄 Persistent conversation history
+🧹 Automated data cleaning
+📈 Predictive analytics
+🧪 Automated anomaly detection
+🐳 Docker deployment
+🎯 Use Cases
 
-.csv .xls .xlsx
+Useful for data analysts, business analysts, students, researchers, developers, and non-technical users who want to explore datasets using natural language instead of writing Python or SQL.
 
-Maximum upload size:
+👨‍💻 Author
 
-16 MB 🔌 API Endpoints Home GET /
+Mohith K B.E. Computer Science & Engineering (Cybersecurity) 
+KPR Institute of Engineering and Technology
 
-Displays the main application interface.
+Interests: Python · Data Science · Machine Learning · Cybersecurity
 
-Upload Dataset POST /upload
+GitHub: @mohith2905-alt
 
-Uploads and analyzes a CSV or Excel file.
+⭐ Project Highlights
 
-Chat POST /chat
-
-Accepts a natural-language question about the uploaded dataset.
-
-Example request:
-
-{ "query": "How many rows are there?" } Download Report GET /download-report
-
-Generates and downloads a statistical summary report.
-
-🔮 Future Enhancements 🔐 User authentication 🗄️ Database integration 📊 More advanced visualizations 🧠 More powerful AI agents 📑 PDF report generation ☁️ Cloud deployment 📁 Multiple dataset support 🔄 Persistent conversation history 🧹 Automated data cleaning 📈 Predictive analytics 🧪 Automated anomaly detection 🐳 Docker deployment 🎯 Use Cases
-
-This project can be useful for:
-
-Data analysts Students Business analysts Researchers Developers Non-technical users who want to explore datasets
-
-Users can interact with their data using natural language instead of writing Python or SQL queries.
-
-👩‍💻 Author
-
-Kaniga K
-
-Computer Science & Engineering (Cybersecurity)
-
-Interested in:
-
-Python Data Science Machine Learning Deep Learning Generative AI LLM Applications Cybersecurity ⭐ Project Highlights
-
-An intelligent data-analysis assistant that transforms raw datasets into actionable insights through automated analytics, interactive visualizations, and natural-language AI interaction.
+An intelligent data-analysis assistant that turns raw datasets into actionable insights through automated analytics, interactive visualizations, and natural-language AI interaction.
 
 If you find this project useful, consider giving it a ⭐ on GitHub!
