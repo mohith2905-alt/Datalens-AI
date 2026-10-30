@@ -1,0 +1,301 @@
+Order_ID,Order_Date,Region,Product_Category,Customer_Segment,Payment_Method,Unit_Price,Quantity,Discount_Pct,Customer_Age,Rating,Total_Sales,Profit
+5001,2025-01-21,Central,Groceries,Corporate,Net Banking,47.84,13,10,51.0,4.0,559.73,153.44
+5002,2025-06-20,West,Clothing,Corporate,Cash,33.16,7,5,31.0,4.0,220.51,19.68
+5003,2025-06-15,North,Sports,Small Business,Net Banking,170.1,14,5,49.0,2.0,2262.33,660.79
+5004,2025-04-05,North,Groceries,Corporate,Net Banking,33.28,11,5,32.0,4.0,347.78,115.14
+5005,2025-02-16,Central,Electronics,Retail,Cash,1314.84,10,10,24.0,4.0,11833.56,2744.91
+5006,2025-01-17,South,Sports,Retail,UPI,149.58,13,5,31.0,4.0,1847.31,486.04
+5007,2025-01-04,West,Groceries,Corporate,Cash,26.18,8,20,32.0,2.0,167.55,44.25
+5008,2025-06-25,North,Groceries,Retail,UPI,40.18,11,10,25.0,4.0,95000.0,138.36
+5009,2025-02-02,South,Electronics,Retail,Cash,546.4,4,20,19.0,4.0,1748.48,266.58
+5010,2025-12-17,South,Clothing,Retail,Net Banking,33.87,14,15,67.0,2.0,403.05,39.84
+5011,2025-03-31,South,Furniture,Corporate,UPI,482.3,9,5,44.0,3.0,4123.66,848.44
+5012,2025-08-27,West,Sports,Small Business,Cash,136.73,11,5,38.0,4.0,1428.83,300.02
+5013,2025-09-03,Central,Clothing,Corporate,Credit Card,46.4,7,15,66.0,5.0,276.08,28.54
+5014,2025-06-30,Central,Groceries,Retail,Cash,25.21,13,5,29.0,3.0,311.34,72.83
+5015,2025-11-19,West,Clothing,Retail,UPI,64.46,2,5,38.0,5.0,122.47,6.64
+5016,2025-02-10,South,Electronics,Corporate,UPI,625.74,2,20,62.0,4.0,1001.18,328.69
+5017,2025-03-27,Central,Clothing,Retail,Cash,66.23,8,10,50.0,5.0,476.86,61.69
+5018,2025-04-03,East,Electronics,Corporate,Credit Card,1091.47,11,0,38.0,4.0,12006.17,742.8
+5019,2025-02-19,East,Groceries,Corporate,Cash,21.33,12,10,31.0,4.0,230.36,19.0
+5020,2025-04-18,West,Clothing,Retail,Cash,143.1,7,10,19.0,4.0,901.53,110.05
+5021,2025-04-25,,Groceries,Retail,UPI,55.4,10,20,,5.0,443.2,58.58
+5022,2025-10-07,Central,Furniture,Retail,Credit Card,484.73,8,15,26.0,4.0,3296.16,197.25
+5023,2025-04-21,East,Sports,Small Business,UPI,111.94,14,0,58.0,4.0,1567.16,209.7
+5024,2025-11-16,West,Sports,Corporate,Credit Card,169.92,10,0,51.0,4.0,1699.2,183.31
+5025,2025-10-10,West,Groceries,Retail,UPI,51.67,6,15,40.0,5.0,263.52,43.11
+5026,2025-11-26,South,Electronics,Small Business,Cash,1048.36,14,0,58.0,2.0,14677.04,2429.79
+5027,2025-02-08,South,Clothing,Retail,Credit Card,123.59,2,5,26.0,4.0,234.82,35.62
+5028,2025-12-26,West,Electronics,Retail,Cash,892.54,14,0,28.0,4.0,12495.56,1854.06
+5029,2025-08-13,North,Electronics,Small Business,Credit Card,1022.79,3,0,38.0,5.0,3068.37,236.02
+5030,2025-12-25,South,Groceries,Retail,Net Banking,20.85,5,20,65.0,4.0,83.4,4.8
+5031,2025-05-10,West,Groceries,Retail,Cash,45.42,12,0,49.0,4.0,545.04,60.3
+5032,2025-12-14,,Sports,Corporate,UPI,76.67,11,0,,5.0,843.37,233.61
+5033,2025-08-03,East,Furniture,Retail,Cash,655.84,14,20,30.0,4.0,7345.41,2550.64
+5034,2025-01-27,South,Furniture,Corporate,Credit Card,788.58,11,0,62.0,3.0,8674.38,2850.04
+5035,2025-05-30,East,Clothing,Retail,Credit Card,32.83,9,20,21.0,3.0,236.38,47.58
+5036,2025-02-20,West,Electronics,Retail,Net Banking,998.69,5,0,29.0,2.0,4993.45,1046.36
+5037,2025-12-10,East,Electronics,Retail,Net Banking,323.62,1,0,45.0,1.0,323.62,46.72
+5038,2025-04-22,North,Clothing,Retail,Credit Card,112.97,2,0,20.0,4.0,225.94,63.76
+5039,2025-03-23,East,Electronics,Retail,UPI,309.84,5,15,62.0,5.0,1316.82,367.96
+5040,2025-07-21,East,Groceries,Retail,Credit Card,56.48,1,15,63.0,5.0,48.01,14.56
+5041,2025-06-05,West,Clothing,Small Business,UPI,33.55,8,10,,1.0,241.56,76.97
+5042,2025-02-05,Central,Groceries,Retail,UPI,57.74,11,5,33.0,4.0,603.38,108.79
+5043,2025-10-26,Central,Groceries,Retail,UPI,49.05,14,0,23.0,3.0,686.7,192.32
+5044,2025-11-05,West,Furniture,Retail,Cash,574.95,7,10,50.0,5.0,3622.19,1057.39
+5045,2025-09-29,South,Groceries,Retail,Credit Card,48.04,13,5,45.0,3.0,593.29,84.57
+5046,2025-08-14,,Groceries,Retail,Net Banking,48.73,14,10,57.0,4.0,614.0,201.87
+5047,2025-05-27,North,Furniture,Corporate,Cash,856.82,13,15,49.0,3.0,9467.86,741.36
+5048,2025-07-17,Central,Furniture,Retail,Net Banking,302.71,7,20,24.0,4.0,1695.18,590.4
+5049,2025-07-10,Central,Groceries,Small Business,Credit Card,37.45,5,10,24.0,4.0,168.52,47.36
+5050,2025-03-02,Central,Electronics,Small Business,Cash,323.56,14,0,58.0,5.0,4529.84,353.24
+5051,2025-01-30,South,Electronics,Retail,Net Banking,1001.02,4,5,26.0,3.0,3803.88,939.06
+5052,2025-04-03,South,Electronics,Retail,Credit Card,422.68,6,20,66.0,5.0,2028.86,122.25
+5053,2025-06-15,Central,Groceries,Retail,Net Banking,36.07,2,10,23.0,4.0,64.93,18.25
+5054,2025-02-28,East,Groceries,Corporate,UPI,36.48,12,15,55.0,5.0,372.1,107.82
+5055,2025-02-08,West,Groceries,Retail,Net Banking,30.63,10,10,68.0,5.0,275.67,63.6
+5056,2025-11-07,East,Groceries,Small Business,UPI,33.74,2,0,40.0,5.0,67.48,20.72
+5057,2025-05-17,East,Clothing,Corporate,Net Banking,118.13,4,20,20.0,3.0,378.02,30.0
+5058,2025-08-02,West,Clothing,Small Business,Credit Card,122.9,8,15,63.0,3.0,835.72,110.96
+5059,2025-07-11,Central,Electronics,Corporate,UPI,839.8,8,20,27.0,3.0,5374.72,936.56
+5060,2025-09-26,South,Electronics,Small Business,UPI,979.47,12,20,45.0,3.0,9402.91,589.91
+5061,2025-09-28,Central,Groceries,Retail,Credit Card,56.22,4,5,69.0,,213.64,39.41
+5062,2025-04-19,South,Clothing,Retail,UPI,31.16,13,5,56.0,5.0,384.83,49.86
+5063,2025-11-06,East,Clothing,Retail,UPI,30.81,7,5,20.0,5.0,204.89,34.38
+5064,2025-05-16,Central,Groceries,Small Business,Credit Card,9.82,12,20,60.0,,94.27,16.74
+5065,2025-11-01,Central,Clothing,Corporate,Cash,103.81,4,10,26.0,4.0,373.72,117.28
+5066,2025-05-28,Central,Clothing,Small Business,Cash,71.51,1,10,56.0,5.0,64.36,8.44
+5067,2025-02-10,South,Clothing,Retail,Net Banking,119.53,1,20,50.0,5.0,95.62,30.42
+5068,2025-10-05,Central,Furniture,Small Business,Cash,636.99,6,15,32.0,3.0,3248.65,577.58
+5069,2025-01-12,Central,Electronics,Retail,Credit Card,633.73,14,20,40.0,4.0,7097.78,1052.9
+5070,2025-10-09,Central,Clothing,Retail,Credit Card,136.28,1,20,,5.0,109.02,21.89
+5071,2025-01-16,North,Electronics,Small Business,UPI,1191.29,6,0,69.0,3.0,7147.74,1253.16
+5072,2025-03-17,West,Clothing,Retail,UPI,51.52,2,5,30.0,4.0,97.89,12.45
+5073,2025-08-09,Central,Sports,Retail,Credit Card,121.97,14,15,34.0,5.0,1451.44,291.45
+5074,2025-12-10,West,Electronics,Corporate,Net Banking,608.77,10,20,44.0,,4870.16,465.3
+5075,2025-05-30,South,Electronics,Retail,Cash,404.9,11,0,52.0,5.0,4453.9,692.93
+5076,2025-02-14,West,Furniture,Retail,Cash,218.23,10,5,44.0,5.0,2073.18,455.55
+5077,2025-03-27,North,Furniture,Retail,Credit Card,848.9,10,10,44.0,3.0,7640.1,1329.55
+5078,2025-11-24,East,Groceries,Retail,Net Banking,29.08,11,15,48.0,3.0,271.9,80.8
+5079,2025-09-23,West,Clothing,Small Business,Credit Card,66.75,1,0,62.0,4.0,66.75,8.48
+5080,2025-02-06,East,Groceries,Corporate,UPI,45.13,13,15,38.0,4.0,498.69,170.02
+5081,2025-05-21,West,Groceries,Retail,UPI,35.41,11,5,61.0,4.0,370.03,105.61
+5082,2025-04-07,South,Clothing,Retail,Net Banking,141.38,11,5,58.0,4.0,1477.42,502.73
+5083,2025-03-06,West,Groceries,Retail,UPI,47.92,6,10,67.0,4.0,258.77,78.0
+5084,2025-11-05,West,Electronics,Corporate,Credit Card,823.18,12,10,65.0,5.0,8890.34,823.52
+5085,2025-08-14,West,Electronics,Small Business,UPI,689.27,6,15,59.0,3.0,3515.28,730.96
+5086,2025-03-07,South,Electronics,Small Business,UPI,1482.62,1,5,30.0,3.0,1408.49,142.25
+5087,2025-08-26,South,Groceries,Retail,Credit Card,44.48,13,20,58.0,2.0,462.59,136.68
+5088,2025-05-31,South,Clothing,Retail,Credit Card,143.41,4,0,56.0,3.0,573.64,129.21
+5089,2025-01-23,East,Electronics,Retail,Credit Card,354.02,2,20,33.0,5.0,566.43,73.09
+5090,2025-06-14,East,Clothing,Corporate,UPI,129.82,9,0,53.0,4.0,1168.38,384.26
+5091,2025-03-09,South,Electronics,Retail,UPI,1028.2,4,15,31.0,3.0,3495.88,295.6
+5092,2025-03-31,East,Groceries,Corporate,UPI,11.71,13,5,45.0,5.0,144.62,31.69
+5093,2025-11-17,South,Clothing,Corporate,Cash,94.41,7,5,59.0,4.0,627.83,167.2
+5094,2025-09-17,South,Furniture,Retail,Credit Card,648.88,1,0,27.0,1.0,648.88,43.9
+5095,2025-02-18,West,Furniture,Retail,Net Banking,109.84,14,15,35.0,3.0,1307.1,299.79
+5096,2025-11-07,Central,Clothing,Retail,Net Banking,76.33,8,0,59.0,3.0,610.64,180.0
+5097,2025-07-29,South,Furniture,Retail,Credit Card,760.32,4,15,41.0,4.0,2585.09,181.62
+5098,2025-11-16,Central,Electronics,Retail,UPI,583.97,10,15,67.0,3.0,4963.75,1010.98
+5099,2025-09-30,East,Electronics,Corporate,Credit Card,796.11,8,20,18.0,2.0,5095.1,649.97
+5100,2025-05-04,North,Sports,Retail,UPI,143.85,1,15,55.0,2.0,122.27,30.43
+5101,2025-07-15,South,Sports,Retail,UPI,104.54,11,5,60.0,4.0,1092.44,93.52
+5102,2025-07-13,North,Groceries,Corporate,Credit Card,55.51,6,15,,1.0,283.1,93.74
+5103,2025-09-20,North,Furniture,Corporate,Credit Card,725.04,10,20,26.0,5.0,5800.32,1846.93
+5104,2025-04-01,South,Sports,Retail,UPI,50.96,13,5,69.0,3.0,629.36,66.58
+5105,2025-05-02,East,Groceries,Small Business,Cash,59.84,9,0,38.0,4.0,538.56,79.16
+5106,2025-03-31,West,Groceries,Small Business,UPI,53.36,10,20,36.0,4.0,426.88,96.6
+5107,2025-04-19,North,Clothing,Corporate,Net Banking,53.33,4,0,36.0,4.0,213.32,56.62
+5108,2025-02-28,Central,Furniture,Corporate,UPI,769.52,4,10,51.0,2.0,2770.27,506.4
+5109,2025-01-14,South,Electronics,Retail,Net Banking,338.35,6,5,52.0,5.0,1928.6,186.86
+5110,2025-12-10,North,Sports,Small Business,Credit Card,299.75,12,0,42.0,5.0,3597.0,292.24
+5111,2025-01-28,West,Clothing,Retail,Cash,104.87,8,15,21.0,1.0,713.12,249.54
+5112,2025-11-21,West,Electronics,Small Business,Net Banking,1045.16,5,0,69.0,3.0,5225.8,975.16
+5113,2025-01-02,West,Furniture,Corporate,Credit Card,172.35,11,15,29.0,5.0,1611.47,502.39
+5114,2025-10-11,North,Clothing,Retail,Net Banking,136.1,12,15,22.0,4.0,1388.22,270.3
+5115,2025-04-30,North,Electronics,Retail,UPI,237.7,13,0,,,3090.1,1009.56
+5116,2025-07-08,South,Sports,Corporate,UPI,87.43,5,0,39.0,3.0,437.15,33.37
+5117,2025-04-14,East,Groceries,Corporate,Cash,12.87,10,15,50.0,4.0,109.39,9.21
+5118,2025-06-29,Central,Groceries,Retail,Cash,47.72,9,10,63.0,5.0,386.53,127.13
+5119,2025-06-14,South,Clothing,Corporate,Credit Card,41.76,7,0,23.0,4.0,292.32,97.71
+5120,2025-07-13,North,Clothing,Small Business,Net Banking,137.94,6,20,32.0,5.0,662.11,95.62
+5121,2025-05-24,Central,Clothing,Retail,Cash,103.6,2,5,44.0,4.0,196.84,30.82
+5122,2025-07-15,North,Clothing,Retail,Net Banking,19.88,4,0,58.0,3.0,79.52,14.77
+5123,2025-10-29,North,Electronics,Retail,UPI,207.06,8,20,49.0,4.0,1325.18,231.71
+5124,2025-06-08,East,Clothing,Corporate,Cash,21.97,13,0,37.0,4.0,285.61,30.56
+5125,2025-05-12,East,Electronics,Retail,UPI,987.7,13,10,49.0,3.0,11556.09,3692.32
+5126,2025-02-18,West,Clothing,Small Business,Net Banking,123.2,3,20,68.0,1.0,295.68,37.25
+5127,2025-05-12,Central,Furniture,Retail,Net Banking,290.84,10,10,42.0,4.0,2617.56,684.71
+5128,2025-02-15,Central,Electronics,Corporate,Net Banking,1304.23,2,10,63.0,5.0,2347.61,164.68
+5129,2025-03-08,South,Electronics,Retail,Cash,274.4,10,5,58.0,1.0,2606.8,160.65
+5130,2025-12-14,Central,Clothing,Retail,Net Banking,123.13,5,0,33.0,4.0,615.65,151.52
+5131,2025-02-02,West,Electronics,Corporate,UPI,1406.13,7,10,30.0,4.0,8858.62,1343.89
+5132,2025-06-25,North,Sports,Retail,UPI,236.19,11,20,58.0,4.0,2078.47,512.63
+5133,2025-11-01,Central,Clothing,Corporate,Net Banking,109.25,6,0,28.0,5.0,655.5,51.26
+5134,2025-12-14,North,Furniture,Small Business,Credit Card,770.38,12,20,35.0,5.0,7395.65,2477.21
+5135,2025-02-23,East,Clothing,Small Business,Cash,20.42,8,10,30.0,5.0,147.02,40.36
+5136,2025-03-01,West,Electronics,Small Business,Credit Card,462.32,14,10,49.0,2.0,5825.23,1822.6
+5137,2025-05-16,South,Sports,Retail,Cash,54.98,9,0,33.0,,494.82,45.0
+5138,2025-07-22,South,Clothing,Corporate,UPI,83.11,5,15,52.0,4.0,353.22,51.59
+5139,2025-12-17,East,Groceries,Small Business,UPI,45.99,11,0,66.0,3.0,505.89,81.2
+5140,2025-03-17,Central,Electronics,Retail,UPI,1019.02,6,5,61.0,1.0,5808.41,1226.46
+5141,2025-03-02,South,Clothing,Retail,UPI,129.9,8,15,67.0,3.0,883.32,122.83
+5142,2025-04-03,West,Clothing,Small Business,UPI,35.95,2,0,,4.0,71.9,4.9
+5143,2025-11-16,East,Sports,Retail,UPI,225.69,2,10,41.0,4.0,406.24,65.27
+5144,2025-01-11,North,Clothing,Corporate,Cash,41.06,9,10,29.0,3.0,332.59,42.03
+5145,2025-05-19,West,Clothing,Small Business,Net Banking,51.55,3,0,65.0,5.0,154.65,25.64
+5146,2025-02-13,Central,Furniture,Corporate,Cash,667.92,14,5,55.0,5.0,8883.34,969.06
+5147,2025-02-27,East,Furniture,Retail,Cash,884.16,12,5,34.0,3.0,10079.42,1295.9
+5148,2025-12-01,North,Clothing,Retail,Net Banking,97.56,10,15,47.0,5.0,829.26,197.43
+5149,2025-01-01,North,Clothing,Retail,Net Banking,22.36,11,20,49.0,1.0,196.77,32.75
+5150,2025-04-28,East,Electronics,Retail,Credit Card,1001.2,9,20,43.0,5.0,7208.64,1107.36
+5151,2025-12-01,East,Groceries,Corporate,Cash,7.33,1,0,42.0,5.0,7.33,1.54
+5152,2025-08-10,East,Sports,Small Business,Credit Card,267.56,6,0,20.0,1.0,1605.36,452.0
+5153,2025-01-27,South,Electronics,Retail,Credit Card,1122.45,7,0,41.0,5.0,7857.15,1285.9
+5154,2025-06-19,East,Clothing,Retail,Net Banking,38.37,13,10,36.0,5.0,448.93,101.57
+5155,2025-12-21,South,Electronics,Small Business,Credit Card,319.24,4,0,60.0,5.0,1276.96,433.99
+5156,2025-05-27,West,Groceries,Retail,Net Banking,15.09,7,5,62.0,5.0,100.35,20.73
+5157,2025-07-12,West,Furniture,Corporate,Net Banking,884.02,5,20,,,3536.08,1141.94
+5158,2025-07-14,West,Groceries,Retail,Net Banking,30.22,2,20,19.0,2.0,48.35,13.93
+5159,2025-08-30,North,Groceries,Corporate,Cash,48.12,2,20,61.0,5.0,76.99,5.21
+5160,2025-03-10,Central,Groceries,Retail,Net Banking,40.0,6,5,38.0,4.0,228.0,40.75
+5161,2025-11-03,North,Electronics,Corporate,Credit Card,944.14,2,15,39.0,4.0,1605.04,416.5
+5162,2025-12-27,Central,Sports,Retail,Net Banking,60.64,1,15,67.0,4.0,51.54,17.83
+5163,2025-02-22,North,Electronics,Corporate,Credit Card,1429.83,5,0,63.0,4.0,7149.15,1340.56
+5164,2025-10-26,East,Electronics,Retail,UPI,591.75,3,10,20.0,3.0,1597.72,124.36
+5165,2025-10-26,North,Clothing,Retail,Credit Card,93.03,8,10,36.0,5.0,669.82,146.42
+5166,2025-09-28,North,Furniture,Corporate,UPI,659.82,1,5,56.0,2.0,626.83,55.14
+5167,2025-05-16,West,Groceries,Retail,Cash,40.71,5,15,46.0,,173.02,47.66
+5168,2025-06-21,West,Groceries,Retail,UPI,56.73,7,15,31.0,5.0,337.54,68.29
+5169,2025-11-03,North,Furniture,Retail,Net Banking,218.75,14,10,45.0,4.0,2756.25,736.0
+5170,2025-02-25,Central,Sports,Retail,Cash,162.34,9,15,63.0,4.0,1241.9,385.99
+5171,2025-10-30,South,Furniture,Retail,Cash,423.23,13,15,29.0,3.0,4676.69,1116.25
+5172,2025-12-03,South,Clothing,Small Business,Net Banking,79.01,5,10,56.0,,355.54,83.1
+5173,2025-09-06,South,Furniture,Retail,UPI,195.37,7,5,56.0,5.0,1299.21,359.06
+5174,2025-05-05,East,Sports,Small Business,UPI,57.55,6,15,64.0,4.0,293.5,88.85
+5175,2025-07-24,North,Electronics,Small Business,Net Banking,561.5,13,15,33.0,,6204.58,1927.86
+5176,2025-01-19,East,Electronics,Retail,Cash,596.12,14,20,29.0,3.0,6676.54,406.8
+5177,2025-12-07,South,Clothing,Corporate,Cash,72.77,14,0,46.0,4.0,1018.78,220.93
+5178,2025-05-05,North,Sports,Small Business,UPI,191.08,11,10,45.0,5.0,1891.69,217.32
+5179,2025-01-21,South,Sports,Corporate,Credit Card,197.7,8,20,39.0,5.0,1265.28,389.84
+5180,2025-10-17,West,Groceries,Retail,Credit Card,27.65,8,10,58.0,3.0,199.08,48.68
+5181,2025-08-29,West,Sports,Retail,Credit Card,134.46,14,20,59.0,5.0,1505.95,265.15
+5182,2025-08-16,South,Sports,Retail,Credit Card,80.94,4,0,30.0,4.0,323.76,34.46
+5183,2025-01-20,South,Clothing,Corporate,Cash,94.42,5,0,59.0,5.0,472.1,71.62
+5184,2025-10-02,West,Furniture,Small Business,Credit Card,353.63,13,15,29.0,3.0,3907.61,1020.41
+5185,2025-08-21,West,Groceries,Small Business,Cash,6.98,6,5,39.0,4.0,39.79,4.43
+5186,2025-10-17,Central,Groceries,Retail,Net Banking,28.01,4,10,19.0,5.0,100.84,7.87
+5187,2025-10-29,Central,Furniture,Corporate,Net Banking,479.31,8,10,35.0,3.0,3451.03,1091.94
+5188,2025-03-19,Central,Electronics,Retail,UPI,493.27,5,10,67.0,4.0,2219.72,619.89
+5189,2025-03-18,Central,Groceries,Small Business,Credit Card,36.49,13,20,41.0,5.0,379.5,41.72
+5190,2025-12-04,East,Furniture,Retail,Net Banking,552.62,13,0,54.0,3.0,7184.06,989.2
+5191,2025-07-13,South,Sports,Small Business,Credit Card,216.56,5,15,23.0,2.0,920.38,314.42
+5192,2025-06-09,South,Electronics,Small Business,Cash,1042.33,8,20,51.0,4.0,6670.91,1750.82
+5193,2025-04-15,South,Electronics,Retail,Cash,1048.16,14,15,37.0,3.0,12473.1,2908.19
+5194,2025-08-22,West,Groceries,Retail,Credit Card,22.39,11,5,56.0,2.0,233.98,33.29
+5195,2025-10-03,West,Electronics,Small Business,Cash,1223.66,4,0,66.0,4.0,4894.64,683.96
+5196,2025-01-01,Central,Electronics,Retail,Credit Card,913.89,9,15,45.0,5.0,6991.26,432.46
+5197,2025-07-21,North,Clothing,Corporate,Credit Card,73.24,9,10,23.0,3.0,593.24,159.31
+5198,2025-12-29,East,Sports,Small Business,Net Banking,195.28,10,0,42.0,3.0,1952.8,122.93
+5199,2025-04-13,South,Electronics,Corporate,Net Banking,668.85,1,5,24.0,5.0,635.41,32.7
+5200,2025-04-13,Central,Furniture,Retail,UPI,510.19,5,20,41.0,4.0,2040.76,548.66
+5201,2025-11-17,South,Groceries,Retail,Net Banking,45.52,12,5,21.0,,518.93,173.67
+5202,2025-01-23,North,Sports,Retail,Net Banking,268.19,4,0,51.0,4.0,1072.76,297.1
+5203,2025-05-26,East,Clothing,Small Business,Net Banking,139.34,5,15,34.0,5.0,592.2,113.4
+5204,2025-06-17,Central,Electronics,Retail,Credit Card,854.72,5,0,28.0,4.0,4273.6,836.83
+5205,2025-10-19,Central,Electronics,Retail,UPI,876.36,3,20,18.0,2.0,2103.26,380.36
+5206,2025-02-17,North,Electronics,Retail,Cash,1239.83,3,20,64.0,5.0,2975.59,438.58
+5207,2025-06-08,South,Electronics,Small Business,Net Banking,608.79,5,20,61.0,4.0,2435.16,502.9
+5208,2025-02-25,North,Groceries,Retail,Net Banking,51.06,13,20,60.0,2.0,531.02,95.24
+5209,2025-10-15,South,Electronics,Small Business,UPI,842.38,1,5,21.0,3.0,800.26,183.62
+5210,2025-08-19,East,Clothing,Corporate,Credit Card,30.64,4,5,36.0,4.0,116.43,37.19
+5211,2025-07-01,South,Groceries,Small Business,Net Banking,8.96,1,5,68.0,1.0,8.51,2.97
+5212,2025-05-24,North,Clothing,Small Business,UPI,128.67,8,10,48.0,3.0,926.42,68.21
+5213,2025-02-25,East,Electronics,Small Business,UPI,272.24,4,20,24.0,2.0,871.17,144.1
+5214,2025-12-03,North,Groceries,Small Business,Net Banking,20.43,12,15,25.0,4.0,208.39,21.72
+5215,2025-08-25,South,Groceries,Retail,Cash,23.38,9,15,31.0,4.0,178.86,27.84
+5216,2025-04-27,North,Groceries,Corporate,UPI,14.51,11,20,68.0,4.0,127.69,17.4
+5217,2025-06-01,,Electronics,Corporate,Credit Card,608.06,9,15,26.0,3.0,4651.66,476.15
+5218,2025-09-23,East,Electronics,Corporate,UPI,1165.5,7,5,64.0,1.0,7750.58,2164.14
+5219,2025-09-20,Central,Sports,Small Business,Net Banking,24.11,13,10,53.0,4.0,282.09,56.1
+5220,2025-06-18,West,Furniture,Small Business,UPI,761.74,7,10,65.0,,4798.96,1563.37
+5221,2025-04-21,North,Furniture,Corporate,Cash,785.24,14,0,60.0,4.0,10993.36,657.16
+5222,2025-08-29,North,Clothing,Retail,UPI,65.26,14,15,35.0,2.0,776.59,54.43
+5223,2025-08-29,South,Groceries,Retail,Net Banking,13.45,9,15,61.0,1.0,102.89,17.59
+5224,2025-08-07,West,Sports,Retail,Net Banking,188.24,10,15,26.0,,1600.04,118.54
+5225,2025-01-27,West,Furniture,Retail,Cash,195.74,4,10,33.0,4.0,704.66,90.77
+5226,2025-06-22,Central,Sports,Retail,Net Banking,122.18,12,15,29.0,4.0,1246.24,430.96
+5227,2025-08-13,South,Electronics,Retail,Cash,1445.96,10,20,24.0,5.0,11567.68,1303.54
+5228,2025-12-13,North,Clothing,Retail,UPI,149.39,13,10,22.0,4.0,1747.86,191.28
+5229,2025-07-11,North,Clothing,Corporate,Cash,119.23,4,10,27.0,,429.23,95.33
+5230,2025-05-06,North,Electronics,Retail,Net Banking,604.25,12,0,24.0,4.0,7251.0,1445.85
+5231,2025-07-22,North,Electronics,Small Business,Net Banking,1093.96,7,15,37.0,1.0,6509.06,1458.89
+5232,2025-03-06,Central,Clothing,Corporate,Credit Card,110.23,3,20,21.0,4.0,264.55,43.13
+5233,2025-02-03,South,Sports,Retail,Cash,128.6,3,15,21.0,3.0,327.93,97.73
+5234,2025-09-05,Central,Clothing,Retail,Credit Card,101.52,8,20,69.0,4.0,649.73,59.5
+5235,2025-12-26,East,Sports,Retail,Cash,23.0,5,20,22.0,2.0,92.0,16.42
+5236,2025-11-05,East,Groceries,Small Business,Cash,16.5,2,15,21.0,5.0,28.05,7.21
+5237,2025-08-02,East,Clothing,Retail,UPI,85.89,6,10,19.0,5.0,463.81,144.0
+5238,2025-01-15,Central,Groceries,Corporate,Net Banking,14.01,10,0,24.0,,140.1,22.54
+5239,2025-12-27,North,Electronics,Small Business,Net Banking,415.68,5,0,45.0,4.0,2078.4,457.92
+5240,2025-06-14,North,Electronics,Small Business,Credit Card,1287.2,14,5,61.0,5.0,17119.76,1211.09
+5241,2025-04-16,East,Groceries,Retail,Credit Card,59.4,11,10,56.0,3.0,588.06,59.45
+5242,2025-11-22,South,Groceries,Retail,Credit Card,35.58,8,15,48.0,5.0,241.94,17.12
+5243,2025-09-30,East,Electronics,Retail,Net Banking,1290.79,14,10,22.0,4.0,16263.95,4364.66
+5244,2025-10-01,West,Clothing,Retail,Cash,148.69,7,0,58.0,5.0,1040.83,141.99
+5245,2025-04-12,East,Clothing,Retail,Cash,34.12,2,5,19.0,5.0,64.83,17.32
+5246,2025-12-29,South,Sports,Corporate,Net Banking,145.51,1,20,50.0,1.0,116.41,8.14
+5247,2025-06-15,South,Clothing,Small Business,Net Banking,68.0,14,20,39.0,4.0,761.6,235.15
+5248,2025-07-13,West,Clothing,Corporate,Credit Card,25.81,14,5,63.0,4.0,343.27,103.21
+5249,2025-10-02,South,Furniture,Corporate,Credit Card,704.26,11,20,33.0,2.0,6197.49,475.21
+5250,2025-08-29,East,Clothing,Retail,UPI,73.56,2,15,51.0,3.0,125.05,7.14
+5251,2025-03-04,East,Groceries,Small Business,UPI,30.81,5,20,40.0,5.0,123.24,8.24
+5252,2025-04-21,West,Sports,Corporate,Cash,62.19,1,20,45.0,1.0,49.75,15.23
+5253,2025-05-12,West,Clothing,Small Business,Credit Card,39.43,1,15,66.0,4.0,33.52,4.04
+5254,2025-12-12,East,Electronics,Small Business,UPI,1379.23,4,5,55.0,5.0,5241.07,1124.12
+5255,2025-09-18,South,Electronics,Retail,Credit Card,258.04,9,15,39.0,3.0,1974.01,351.12
+5256,2025-05-14,South,Groceries,Retail,Credit Card,17.81,1,5,,4.0,16.92,4.88
+5257,2025-09-26,East,Groceries,Retail,Credit Card,21.06,14,5,54.0,5.0,280.1,55.09
+5258,2025-09-27,South,Electronics,Retail,Credit Card,837.26,7,15,35.0,4.0,4981.7,997.33
+5259,2025-05-24,West,Electronics,Small Business,Cash,962.38,4,10,26.0,2.0,3464.57,1201.26
+5260,2025-05-28,South,Clothing,Retail,UPI,81.59,8,10,42.0,2.0,587.45,55.83
+5261,2025-11-23,West,Electronics,Corporate,UPI,309.35,12,5,21.0,5.0,3526.59,1055.2
+5262,2025-07-25,West,Groceries,Corporate,UPI,18.4,5,10,26.0,,82.8,5.43
+5263,2025-02-24,Central,Furniture,Retail,Cash,774.87,1,0,39.0,4.0,774.87,149.78
+5264,2025-09-20,North,Electronics,Retail,Net Banking,1028.87,1,15,59.0,2.0,874.54,276.27
+5265,2025-08-04,West,Sports,Corporate,Cash,201.76,12,10,58.0,4.0,2179.01,543.8
+5266,2025-07-05,North,Electronics,Corporate,Cash,1071.26,2,20,31.0,5.0,1714.02,438.04
+5267,2025-09-22,,Furniture,Retail,Cash,710.32,9,10,39.0,4.0,5753.59,742.19
+5268,2025-11-28,North,Electronics,Retail,Cash,275.54,6,10,25.0,5.0,1487.92,261.24
+5269,2025-05-01,North,Electronics,Corporate,Credit Card,676.59,11,0,57.0,3.0,7442.49,1190.61
+5270,2025-06-03,North,Electronics,Retail,Net Banking,901.39,1,0,30.0,4.0,901.39,186.08
+5271,2025-03-11,North,Electronics,Small Business,Credit Card,639.99,13,5,59.0,5.0,7903.88,1491.21
+5272,2025-08-25,Central,Electronics,Retail,UPI,1297.82,10,5,61.0,4.0,12329.29,1825.59
+5273,2025-05-27,North,Electronics,Retail,Cash,827.34,7,5,53.0,3.0,5501.81,779.3
+5274,2025-05-05,South,Clothing,Retail,UPI,118.76,3,5,35.0,5.0,338.47,42.4
+5275,2025-09-12,West,Groceries,Corporate,Credit Card,51.86,14,15,67.0,4.0,617.13,98.44
+5276,2025-05-29,,Furniture,Corporate,Net Banking,503.83,5,0,53.0,4.0,2519.15,239.28
+5277,2025-06-19,Central,Furniture,Retail,Credit Card,827.64,7,5,51.0,5.0,5503.81,1715.16
+5278,2025-06-10,North,Clothing,Small Business,Credit Card,94.26,6,0,62.0,3.0,565.56,130.44
+5279,2025-04-05,Central,Sports,Retail,Net Banking,258.08,4,5,63.0,3.0,980.7,88.4
+5280,2025-02-15,West,Sports,Retail,Cash,115.37,6,15,22.0,1.0,588.39,151.9
+5281,2025-10-29,North,Electronics,Retail,Credit Card,848.46,3,0,63.0,4.0,2545.38,774.56
+5282,2025-02-03,East,Electronics,Retail,Net Banking,890.83,1,5,57.0,3.0,846.29,102.62
+5283,2025-04-29,Central,Electronics,Corporate,Net Banking,336.47,5,0,28.0,4.0,1682.35,160.13
+5284,2025-09-01,South,Electronics,Retail,Credit Card,718.12,2,20,33.0,3.0,1148.99,60.42
+5285,2025-02-17,North,Clothing,Corporate,UPI,138.84,6,15,57.0,4.0,708.08,45.44
+5286,2025-08-28,Central,Clothing,Retail,UPI,100.16,13,5,29.0,3.0,1236.98,344.72
+5287,2025-09-25,Central,Electronics,Small Business,Credit Card,430.76,3,0,41.0,4.0,1292.28,447.33
+5288,2025-08-30,Central,Furniture,Retail,Credit Card,371.08,1,0,53.0,3.0,371.08,23.55
+5289,2025-04-22,Central,Clothing,Small Business,Credit Card,40.87,2,10,51.0,5.0,73.57,20.19
+5290,2025-01-08,Central,Electronics,Retail,Credit Card,232.27,8,15,,4.0,1579.44,113.02
+5291,2025-11-20,East,Groceries,Retail,UPI,56.01,4,10,23.0,4.0,201.64,45.9
+5292,2025-04-30,North,Electronics,Small Business,UPI,782.67,7,20,33.0,5.0,4382.95,1213.3
+5293,2025-10-21,West,Sports,Corporate,Credit Card,106.11,1,5,69.0,4.0,100.8,15.9
+5294,2025-03-14,South,Electronics,Corporate,UPI,978.02,5,5,47.0,3.0,4645.6,247.52
+5295,2025-03-01,East,Groceries,Retail,Credit Card,5.4,6,10,30.0,5.0,29.16,6.66
+5296,2025-10-12,West,Sports,Corporate,Net Banking,97.85,7,5,33.0,3.0,650.7,226.04
+5297,2025-12-10,Central,Sports,Small Business,Credit Card,216.85,8,20,35.0,1.0,1387.84,176.65
+5298,2025-11-11,South,Groceries,Corporate,Net Banking,39.86,11,0,46.0,4.0,438.46,46.85
+5299,2025-10-02,South,Groceries,Retail,Cash,59.0,7,10,32.0,2.0,371.7,32.4
+5300,2025-04-01,West,Clothing,Corporate,Net Banking,98.75,12,10,50.0,3.0,1066.5,230.98
